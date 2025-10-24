@@ -8,7 +8,6 @@ Yunju Im and Yuan Huang (2025). BHMnet: Bayesian High-Dimensional Mediation Anal
 ## Examples
 Below are examples of how to run the model with and without the network information (MRF prior).
 
-### 1. Load Dependencies and Data
 ```julia
 using StatsBase, LinearAlgebra, Distributions, Random, CSV, DataFrames, JLD2, RCall
 
