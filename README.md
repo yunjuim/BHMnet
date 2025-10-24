@@ -24,8 +24,7 @@ E = mydat[:, "E"]
 M = Matrix(select(mydat, r"x"))
 p = size(M)[2]
 
-
-H = construct_H(M) # Set hyperparameters
+H = construct_H(M)
 n_total, n_burn = 2000, 1000
 
 # This runs the model without leveraging the external network R.
