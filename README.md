@@ -6,7 +6,7 @@ Yunju Im and Yuan Huang (2025). BHMnet: Bayesian High-Dimensional Mediation Anal
 2) simdata.jld2: the pre-saved data file containing simulated data called "mydat". 
 
 ## Examples
-Below are examples of how to run the model with and without the network information (MRF prior).
+Below are examples of how to run the model with and without the network information.
 
 ```julia
 using StatsBase, LinearAlgebra, Distributions, Random, CSV, DataFrames, JLD2, RCall
